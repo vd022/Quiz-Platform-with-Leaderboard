@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Platform</title>
+    <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🧠 Quiz Platform</h1>
+    <div id="progress-container">
+    <div id="progress-bar"></div>
+    </div>
+    <div id="quiz-box">
+<div id="timer">⏱ Time: 10</div>
+        <h2 id="question">Question text</h2>
+
+        <div class="options">
+    <button class="option-btn" onclick="selectOption(this)">Option 1</button>
+    <button class="option-btn" onclick="selectOption(this)">Option 2</button>
+    <button class="option-btn" onclick="selectOption(this)">Option 3</button>
+    <button class="option-btn" onclick="selectOption(this)">Option 4</button>
+</div>
+
+        <button id="nextBtn" onclick="nextQuestion()">Next</button>
+
+    </div>
+
+    <div id="result-box" class="hidden">
+        <h2>Your Score:</h2>
+        <h1 id="score">0</h1>
+        <button onclick="restartQuiz()">Restart</button>
+    </div>
+<div id="leaderboard-box" class="hidden">
+
+    <h2>🏆 Leaderboard</h2>
+
+    <ul id="leaderboard"></ul>
+
+    <button onclick="restartQuiz()">Try Again</button>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

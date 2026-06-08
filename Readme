@@ -1,0 +1,92 @@
+# 🧠 Quiz Platform with Leaderboard
+
+## Intern Details
+
+- Intern ID: ---
+- Full Name: ---
+- No. of Weeks: 4
+
+---
+
+## Project Name
+
+Quiz Platform with Leaderboard
+
+---
+
+## Project Description
+
+A fully interactive quiz application built using HTML, CSS, and JavaScript.
+
+The application allows users to answer multiple-choice questions, track their score, and view a leaderboard of top performers. It includes a timer system, progress tracking, and visual feedback for correct and wrong answers.
+
+All scores are stored using Local Storage, making the data persistent across sessions.
+
+---
+
+## Features
+
+- Multiple-choice quiz system
+- Real-time scoring system
+- Timer for each question
+- Progress bar indicator
+- Correct and wrong answer highlighting
+- Leaderboard system with ranking
+- Data stored using Local Storage
+- Responsive and modern UI design
+
+---
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+---
+
+## Project Functionality
+
+- Users answer quiz questions one by one
+- Timer automatically moves to next question
+- Score updates based on correct answers
+- Progress bar shows completion status
+- Final score is displayed at the end
+- Leaderboard stores and displays top scores
+- Data persists even after page refresh
+
+---
+
+## Folder Structure
+
+Quiz-Platform\
+
+  ── index.html
+  ── style.css
+  ── script.js
+── Screenshots\
+     ── dashboard.png
+     ── Quiz.png
+     ── add name.png
+     ── leaderboard.png
+
+---
+
+## How to Run
+
+1. Download or clone repository
+2. Open index.html in browser
+3. Start answering quiz questions
+4. View score and leaderboard at end
+
+---
+
+## Output
+
+A fully functional quiz platform with scoring system, timer, and leaderboard implemented using frontend technologies.
+
+---
+
+## Author
+
+Intern Project Submission
